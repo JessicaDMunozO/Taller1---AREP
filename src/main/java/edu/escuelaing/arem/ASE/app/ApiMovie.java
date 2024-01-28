@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 /**
  * The ApiMovie class was build to search information about movies
- * Here we use the OMDB API to obtain movie's information
+ * Here we use the OMDb API to obtain movie's information
  */
 public class ApiMovie {
 
@@ -16,12 +16,12 @@ public class ApiMovie {
     private HashMap<String, StringBuffer> moviesCache = new HashMap<>();
 
     /**
-     * HTTP connection for making queries to the OMDB API
+     * HTTP connection for making queries to the OMDb API
      */
     private HttpConnection connection = new HttpConnection();
 
     /**
-     * Searches information about a particular movie using the OMDB API
+     * Searches information about a particular movie using the OMDb API
      * 
      * @param movieName name of the movie to be searched
      * @return string with the movie information
