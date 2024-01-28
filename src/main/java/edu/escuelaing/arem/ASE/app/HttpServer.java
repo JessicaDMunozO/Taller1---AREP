@@ -5,8 +5,17 @@ import java.io.*;
 
 public class HttpServer {
 
+    /**
+     * ApiMovie instance to search for information about a given movie name
+     */
     private static ApiMovie myAPI = new ApiMovie();
 
+    /**
+     * Print information about the specific movie
+     * 
+     * @param movieName name of the movie to be seached
+     * @param out       PrintWriter to send response to the client
+     */
     private static void printMovieResult(String movieName, PrintWriter out) {
         String movieInfo;
 
