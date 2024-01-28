@@ -1,5 +1,5 @@
 # Taller 1 - AREP
-Para este taller se implementó un servidor web en Java que, recibe solicitudes relacionadas con el nombre de una película, con el fin de mostrar la información correspondiente a dicha búsqueda. Los datos de la película fueron obtenidos del API gratuito de OMDb. Además, cuenta con un Caché para evitar hacer consultas repetidas al API externo.
+Para este taller se implementó un servidor web en Java que recibe solicitudes relacionadas con el nombre de una película, con el fin de mostrar la información correspondiente a dicha búsqueda. Los datos de la película fueron obtenidos del API gratuito de OMDb. Además, cuenta con un Caché para evitar hacer consultas repetidas al API externo.
 ## Empezando
 Las siguientes instrucciones permiten que obtenga una copia del proyecto en funcionamiento.
 ### Prerrequisitos
